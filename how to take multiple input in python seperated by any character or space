@@ -1,0 +1,2 @@
+a = list(map(int, input().split("%")))        #if you enter input in  this format(12%23%23%45) then it accept inputs and store them in a list a
+print(a)
