@@ -1,0 +1,4 @@
+import os
+
+os.startfile('"C:\Program Files (x86)\Free PDF Reader\FreePDFReader.exe"')
+os.system("taskkill /f /im FreePDFReader.exe")
