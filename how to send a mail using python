@@ -1,4 +1,5 @@
-#FIRST ALLOW YOUR EMAIL ID TO ACCESS LESS SECURE APPSimport smtplib
+#FIRST ALLOW YOUR EMAIL ID TO ACCESS LESS SECURE APPS
+import smtplib
 
 try:  
     server = smtplib.SMTP('smtp.gmail.com', 587)
