@@ -1,0 +1,5 @@
+import os
+path, dirs, files = next(os.walk("C:\\Users\dominator\Documents\Dell WebCam Central\Snap Photos"))
+#here dirs returns directories note:- this sequence is must we cant modify them
+k=len(files)
+m=list(files)    #m will be a list containing names of all files
