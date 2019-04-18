@@ -1,0 +1,2 @@
+import os, string
+av = ['%s:' % d for d in string.ascii_uppercase if os.path.exists('%s:' % d)]     #this list av contains alldrives
