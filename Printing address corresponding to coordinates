@@ -1,0 +1,5 @@
+#how to print address corresponding to coordinates
+from geopy.geocoders import Nominatim
+geolocator = Nominatim(user_agent="specify_your_app_name_here")
+location = geolocator.reverse(" 27.441585,77.716360")
+print(location.address)
