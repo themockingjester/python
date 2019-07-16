@@ -1,13 +1,13 @@
 #note:-sometimes it gives multiple output bcz hese are those parts of the app which runs together to make an app running
 import psutil
 list1=list()
-for proc in psutil.process_iter():	
+for process in psutil.process_iter():	
 	# Get process name from process object.
-	processName = proc.name()
+	processName = process.name()
 	list1.append(processName)
 for i in list1:
 	if i=="chrome.exe":
 		print("true")
 	else:
 		pass
-print(list1)
+#print(list1)
