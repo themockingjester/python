@@ -1,0 +1,5 @@
+#type this command in terminal
+python -m http.server
+#now find the ip address of pc 
+#suppose ip address will be x
+#then in your phone's browser type x:8000
