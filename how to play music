@@ -1,0 +1,4 @@
+from pygame import mixer
+mixer.init()
+mixer.music.load("Billie Eilish - bad guy (Lyrics)-128.mp3")
+mixer.music.play()
