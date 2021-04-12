@@ -7,9 +7,9 @@ for i in range(hh,-1,-1):
 	for j in range(mm,-1,-1):
 		
 		for k in range(ss,-1,-1):
-			
-			print('%2d:%2d:%2d' %(i,j,k))
+			_ = system('cls')
+			print('%02d:%02d:%02d' %(i,j,k))
 			time.sleep(1)
-			print("\033[H\033[j")
+			 
 		ss=59
 	mm=59
